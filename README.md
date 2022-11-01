@@ -32,15 +32,15 @@ Before attempting to get a copy of this, you should know(have) how to do the fol
 
 - In desired folder or directory in the CLI, run the command:
 
-`git clone (https/ssh)URL`
+>                 git clone (https/ssh)URL
 
 - Navigate into the cloned folder or repository by running the command:
 
-`cd <folder/name of the repository>`
+>                cd <folder/name of the repository>
 
 - If VsCode is your default code editor, run:
 
-`code .`
+>                       code .
 
 ## Authors
 
