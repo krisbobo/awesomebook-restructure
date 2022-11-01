@@ -31,7 +31,7 @@ class page {
 }
 
 const eventHandler = () => {
-  document.addEventListener('DOMContentLoaded', page.awesomeBooks);
+  document.addEventListener('DOMContentLoaded', page.displayBooks);
 
   document.querySelector('.book-input').addEventListener('submit', (e) => {
     e.preventDefault();
