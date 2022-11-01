@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-![Image](absolute link)
+![Link](https://krisbobo.github.io/awesomebook-restructure/)
 
 ## Getting Started
 
