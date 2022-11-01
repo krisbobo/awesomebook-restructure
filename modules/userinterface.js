@@ -31,7 +31,7 @@ class page {
 }
 
 const eventHandler = () => {
-  document.addEventListener('DOMContentLoaded', page.displayBooks);
+  document.addEventListener('DOMContentLoaded', page.awesomeBooks);
 
   document.querySelector('.book-input').addEventListener('submit', (e) => {
     e.preventDefault();
@@ -45,11 +45,12 @@ const eventHandler = () => {
     // to clear fields
     page.clearFields();
   });
-};
+
   // to remove a book
-document.querySelector('#book-collection').addEventListener('click', (e) => {
-  page.deleteBook(e.target);
-  Store.removeBook();
-});
+  document.querySelector('#book-collection').addEventListener('click', (e) => {
+    page.deleteBook(e.target);
+    Store.removeBook();
+  });
+};
 
 export default eventHandler;
